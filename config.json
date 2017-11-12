@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Щеглов А.К."
+  },
+  "text": {
+    "more": "Условно, всех моих друзей можно разделить на 6 групп: желтая – друзья, никак не связанные с другими группами и между собой, по большей части удаленные страницы, фиолетовая – нынешние однокурсники, красная – бывшие однокурсники набора 2013 года, коричневая – знакомые с форума, посвященные стратегическим играм, синяя – знакомые и друзья из моей второй школы, зелёная – знакомые из моей первой школы. Размер узлов показывает, насколько близок мне тот или иной человек и/или насколько часто мы с ним контактируем.",
+    "intro": "Данный граф показывает, как связаны мои друзья ВК, и на какие основные шесть групп их можно разделить. Подробнее см. в описании.",
+    "title": "Друзья ВК"
+  },
+  "legend": {
+    "edgeLabel": "Знакомство",
+    "colorLabel": "Группы знакомых",
+    "nodeLabel": "Друг"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
